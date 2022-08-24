@@ -33,11 +33,13 @@ textarea,
 th,
 ul {
     padding: 0;
-    margin: 0
+    margin: 0;
+    color:#191919;
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
+    color:#191919;
 }
 
 table {
@@ -105,7 +107,7 @@ acronym {
     -moz-box-sizing: border-box;
     box-sizing: border-box
 }
-
+.fp-watermark{display: none;}
 
 .section {
     position: relative
@@ -153,13 +155,6 @@ acronym {
     border-radius: 5px;
     display: block;
     color: #fff
-}
-
-h3 {
-    font-size: 5em;
-    text-align: center;
-    color: #fff;
-    font-weight: 700
 }
 
 #logo {
@@ -257,4 +252,8 @@ h3 {
 .twitter-share svg {
     height: 40px;
     margin-top: -10px
+}
+
+.hide{
+    display: none;
 }
