@@ -13,16 +13,16 @@
     <div class="pagenation-wrap">
       <ul>
         <li>
-          <a href="#page1" class="dot active"><span class="hide">page1</span></a>
+          <a data-menuanchor="page1"  href="#page1" class="dot active"><span class="hide">page1</span></a>
         </li>
         <li>
-          <a href="#page2" class="dot"><span class="hide">page2</span></a>
+          <a data-menuanchor="page2"  href="#page2" class="dot"><span class="hide">page2</span></a>
         </li>
         <li>
-          <a href="#page3" class="dot"><span class="hide">page3</span></a>
+          <a data-menuanchor="page3"  href="#page3" class="dot"><span class="hide">page3</span></a>
         </li>
         <li>
-          <a href="#page4" class="dot"><span class="hide">page4</span></a>
+          <a data-menuanchor="page4"  href="#page4" class="dot"><span class="hide">page4</span></a>
         </li>
       </ul>
     </div>
