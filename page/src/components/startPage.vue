@@ -86,54 +86,5 @@ export default {
 </script>
 
 <style lang="scss">
-/* S: Start Page */
-.start-page{
-  display: none;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  z-index: 101;
-  top: 0;
-  left: 0;
-  font-family: 'Poppins';
-  font-weight: bold;
-  letter-spacing: -0.25px;
-  line-height: 1;
-  h3{
-      position: absolute;
-      top: 8.208vw;
-      left: 8.333vw;
-      font-size: 2.083vw;
-      transform: translateY(-50%);
-  }
-  h1{
-      position: absolute;
-      top: 24.479vw;
-      left: 8.333vw;
-      font-size: 9.531vw;
-      text-align: right;
-  }
-  .img-wrap{
-    position: absolute;
-    bottom: 12%;
-    right: -9%;
-    transform: rotate(-15deg);
-    width: 56.250vw;
-    height: 39vw;
-    background: url('~@/assets/img/bg_monitor.png') no-repeat 0 0 / 100% auto;
-    .txt-wrap{
-        position: absolute;
-        top: 36%; 
-        left: 24%;
-        overflow: hidden;
-        height: 3.646vw;
-      .txt{
-        font-size: 3.646vw;
-        font-weight: bold;
-      }
-    }
-  }
-}
-/* E: Start Page */
+
 </style>
